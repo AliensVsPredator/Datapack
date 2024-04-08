@@ -1,0 +1,7 @@
+{
+  "host": "minecraft:villager",
+  "from": "avp:chestburster",
+  "to": "avp:drone",
+  "growthTime": 12000,
+  "requirement": "#chestburster_requirements"
+}

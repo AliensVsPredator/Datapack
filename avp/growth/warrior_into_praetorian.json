@@ -1,0 +1,6 @@
+{
+  "from": "avp:warrior",
+  "to": "avp:praetorian",
+  "growthTime": 96000,
+  "requirement": "#praetorian_hive_ratio"
+}

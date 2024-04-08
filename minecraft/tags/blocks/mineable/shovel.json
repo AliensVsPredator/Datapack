@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "avp:engineer_ship_floor",
+    "avp:engineer_ship_gravel"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_diode": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:diode"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "avp:regulator"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_diode"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "avp:regulator"
+    ]
+  }
+}

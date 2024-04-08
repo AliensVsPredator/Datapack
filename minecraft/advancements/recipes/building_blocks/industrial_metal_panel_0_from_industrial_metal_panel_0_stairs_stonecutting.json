@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_industrial_metal_panel_0_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:industrial_metal_panel_0_stairs"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:industrial_metal_panel_0_from_industrial_metal_panel_0_stairs_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_industrial_metal_panel_0_stairs"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:industrial_metal_panel_0_from_industrial_metal_panel_0_stairs_stonecutting"
+    ]
+  }
+}

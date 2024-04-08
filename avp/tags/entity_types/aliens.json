@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "#avp:eggs",
+    "#avp:parasites",
+    "#avp:royal_aliens",
+    "avp:belugaburster",
+    "avp:belugamorph",
+    "avp:boiler",
+    "avp:chestburster",
+    "avp:drone",
+    "avp:spitter",
+    "avp:warrior",
+    "avp:deacon_adult_engineer",
+    "avp:chestburster_draco",
+    "avp:dracomorph",
+    "avp:ultramorph",
+    "avp:deacon",
+    "avp:deacon_adult",
+    "avp:chestburster_runner",
+    "avp:drone_runner",
+    "avp:warrior_runner"
+  ]
+}

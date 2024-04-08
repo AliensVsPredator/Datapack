@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "avp:engineer_ship_brick_wall",
+    "avp:engineer_ship_brick_1_wall",
+    "avp:engineer_ship_brick_2_wall",
+    "avp:engineer_ship_brick_3_wall",
+    "avp:engineer_ship_material_0_wall",
+    "avp:engineer_ship_material_1_wall",
+    "avp:engineer_ship_material_2_wall",
+    "avp:engineer_ship_wall_wall",
+    "avp:engineer_ship_wall_1_wall",
+    "avp:engineer_ship_wall_2_wall",
+    "avp:engineer_ship_wall_3_wall",
+    "avp:engineer_ship_wall_4_wall",
+    "avp:padding_orange_square_wall",
+    "avp:padding_orange_tiles_wall",
+    "avp:padding_white_square_wall",
+    "avp:padding_white_tiles_wall",
+    "avp:temple_brick_wall",
+    "avp:temple_brick_single_wall",
+    "avp:temple_floor_wall",
+    "avp:temple_tile_wall",
+    "avp:yautja_ship_brick_wall",
+    "avp:yautja_ship_decor_3_wall"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parasite": "avp:facehugger",
+  "host": "minecraft:wolf",
+  "result": "avp:chestburster_runner",
+  "impregnationTime": 60,
+  "latchTime": 1200,
+  "gestationTime": 6000
+}
