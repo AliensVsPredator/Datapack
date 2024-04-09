@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "avp:temple_brick_single_stairs"
-  },
-  "result": "avp:temple_brick_single"
-}

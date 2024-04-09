@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "avp:industrial_brick"
+  },
+  "result": "avp:industrial_floor_grill"
+}

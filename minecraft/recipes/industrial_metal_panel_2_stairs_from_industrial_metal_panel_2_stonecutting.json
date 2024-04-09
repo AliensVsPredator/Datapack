@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "avp:industrial_metal_panel_2"
+  },
+  "result": "avp:industrial_metal_panel_2_stairs"
+}
