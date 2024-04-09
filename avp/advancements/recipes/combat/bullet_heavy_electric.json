@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_steel_ingot": {
+    "has_heavy_casing": {
       "conditions": {
         "items": [
           {
             "items": [
-              "avp:ingot_steel"
+              "avp:casing_heavy"
             ]
           }
         ]
@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "avp:rocket"
+        "recipe": "avp:bullet_heavy_electric"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -23,12 +23,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_steel_ingot"
+      "has_heavy_casing"
     ]
   ],
   "rewards": {
     "recipes": [
-      "avp:rocket"
+      "avp:bullet_heavy_electric"
     ]
   }
 }

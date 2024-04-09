@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "avp:rocket"
+        "recipe": "avp:rocket_penetration"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "avp:rocket"
+      "avp:rocket_penetration"
     ]
   }
 }

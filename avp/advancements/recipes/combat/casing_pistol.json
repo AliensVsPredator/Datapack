@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_steel_ingot": {
+    "has_gunpowder": {
       "conditions": {
         "items": [
           {
             "items": [
-              "avp:ingot_steel"
+              "minecraft:gunpowder"
             ]
           }
         ]
@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "avp:rocket"
+        "recipe": "avp:casing_pistol"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -23,12 +23,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_steel_ingot"
+      "has_gunpowder"
     ]
   ],
   "rewards": {
     "recipes": [
-      "avp:rocket"
+      "avp:casing_pistol"
     ]
   }
 }
