@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
-    "item": "avp:industrial_brick_slab"
+    "item": "avp:temple_wall_base"
   },
-  "result": "avp:industrial_brick"
+  "result": "avp:temple_floor"
 }

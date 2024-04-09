@@ -1,6 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 8,
+  "count": 1,
   "ingredient": {
     "item": "avp:industrial_metal_panel_0_slab"
   },
