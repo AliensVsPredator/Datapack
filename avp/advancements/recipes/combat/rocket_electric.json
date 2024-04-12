@@ -1,12 +1,36 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_steel_ingot": {
+    "has_A": {
       "conditions": {
         "items": [
           {
             "items": [
               "avp:ingot_steel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_B": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tnt"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_C": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:capacitor"
             ]
           }
         ]
@@ -23,7 +47,9 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_steel_ingot"
+      "has_A",
+      "has_B",
+      "has_C"
     ]
   ],
   "rewards": {

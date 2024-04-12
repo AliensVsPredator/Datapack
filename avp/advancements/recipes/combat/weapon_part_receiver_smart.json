@@ -1,12 +1,72 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_receiver": {
+    "has_A": {
       "conditions": {
         "items": [
           {
             "items": [
               "avp:weapon_part_receiver"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_B": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:cpu"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_C": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:led_display"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_D": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:power_supply"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_E": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:polymer"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_F": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:capacitor"
             ]
           }
         ]
@@ -23,7 +83,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_receiver"
+      "has_A",
+      "has_B",
+      "has_C",
+      "has_D",
+      "has_E",
+      "has_F"
     ]
   ],
   "rewards": {

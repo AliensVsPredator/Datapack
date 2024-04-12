@@ -1,12 +1,24 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_gunpowder": {
+    "has_A": {
       "conditions": {
         "items": [
           {
             "items": [
               "minecraft:gunpowder"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_B": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:clay_ball"
             ]
           }
         ]
@@ -23,7 +35,8 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_gunpowder"
+      "has_A",
+      "has_B"
     ]
   ],
   "rewards": {

@@ -1,7 +1,19 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_barrel": {
+    "has_A": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:ingot_steel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_B": {
       "conditions": {
         "items": [
           {
@@ -23,7 +35,8 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_barrel"
+      "has_A",
+      "has_B"
     ]
   ],
   "rewards": {
