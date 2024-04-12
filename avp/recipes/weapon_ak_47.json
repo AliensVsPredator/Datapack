@@ -13,6 +13,9 @@
     },
     {
       "item": "avp:weapon_part_receiver"
+    },
+    {
+      "item": "avp:weapon_part_stock"
     }
   ],
   "result": {
