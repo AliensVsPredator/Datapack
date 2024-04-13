@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "avp:titanium_block",
     "avp:industrial_brick",
     "avp:industrial_brick_slab",
     "avp:industrial_brick_stairs",
@@ -22,6 +23,8 @@
     "avp:industrial_wall_stairs",
     "avp:industrial_wall_hazard",
     "avp:ore_silica",
+    "avp:ore_titanium",
+    "avp:raw_titanium_block",
     "avp:silica_block",
     "avp:temple_brick",
     "avp:temple_brick_slab",
