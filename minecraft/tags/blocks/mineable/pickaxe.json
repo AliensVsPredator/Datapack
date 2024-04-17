@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-    "avp:aluminum_block",
-    "avp:titanium_block",
     "avp:resin",
     "avp:resin_veins",
     "avp:resin_webbing",
+    "avp:aluminum_block",
+    "avp:titanium_block",
     "avp:engineer_ship_brick",
     "avp:engineer_ship_brick_slab",
     "avp:engineer_ship_brick_stairs",
