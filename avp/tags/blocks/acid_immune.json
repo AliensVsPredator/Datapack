@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#minecraft:features_cannot_replace",
+      "required": false
+    }
+  ]
+}
