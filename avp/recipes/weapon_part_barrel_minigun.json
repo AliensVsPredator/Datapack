@@ -12,7 +12,7 @@
   "pattern": [
     "BBB",
     "A A",
-    "ABB"
+    "BBB"
   ],
   "result": {
     "item": "avp:weapon_part_barrel_minigun"
