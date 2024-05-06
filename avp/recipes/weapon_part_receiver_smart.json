@@ -12,7 +12,7 @@
       "item": "avp:led_display"
     },
     "D": {
-      "item": "avp:power_supply"
+      "item": "avp:battery"
     },
     "E": {
       "item": "avp:polymer"

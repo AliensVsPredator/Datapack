@@ -42,7 +42,7 @@
         "items": [
           {
             "items": [
-              "avp:power_supply"
+              "avp:battery"
             ]
           }
         ]
