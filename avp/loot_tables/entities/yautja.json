@@ -34,6 +34,10 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
+          "type": "minecraft:empty",
+          "weight": 36
+        },
+        {
           "type": "minecraft:item",
           "name": "avp:armor_veritanium_helmet"
         },
