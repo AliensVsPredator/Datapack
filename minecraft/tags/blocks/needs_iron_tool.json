@@ -1,12 +1,13 @@
 {
   "replace": false,
   "values": [
+    "avp:steel_block",
     "avp:titanium_block",
     "avp:industrial_brick",
     "avp:industrial_brick_slab",
     "avp:industrial_brick_stairs",
     "avp:industrial_floor_grill",
-    "avp:industrial_glass",
+    "avp:industrial_glass_gray",
     "avp:industrial_lamp",
     "avp:industrial_metal_panel_0",
     "avp:industrial_metal_panel_0_slab",
