@@ -1,0 +1,58 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_A": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_B": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:wool"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_C": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gray_dye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "avp:padding_gray_panel"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_A",
+      "has_B",
+      "has_C"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "avp:padding_gray_panel"
+    ]
+  }
+}

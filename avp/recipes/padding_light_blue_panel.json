@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "minecraft:leather"
+    },
+    "B": {
+      "tag": "minecraft:wool"
+    },
+    "C": {
+      "item": "minecraft:light_blue_dye"
+    }
+  },
+  "pattern": [
+    " AC",
+    "ABA",
+    " A "
+  ],
+  "result": {
+    "item": "avp:padding_light_blue_panel"
+  }
+}
