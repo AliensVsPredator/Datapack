@@ -6,7 +6,7 @@
       "item": "avp:ingot_aluminum"
     },
     "B": {
-      "item": "avp:industrial_glass"
+      "tag": "avp:industrial_glass"
     },
     "C": {
       "item": "avp:carbon"
