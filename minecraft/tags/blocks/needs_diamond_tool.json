@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "avp:orionite_block",
     "avp:engineer_ship_brick",
     "avp:engineer_ship_brick_slab",
     "avp:engineer_ship_brick_stairs",
