@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:arrow",
+    "minecraft:cactus",
+    "minecraft:explosion",
+    "minecraft:falling_anvil",
+    "minecraft:falling_block",
+    "minecraft:falling_stalactite",
+    "minecraft:mob_projectile",
+    "minecraft:stalagmite",
+    "minecraft:thorns",
+    "minecraft:trident"
+  ]
+}
