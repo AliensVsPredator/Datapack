@@ -1,6 +1,18 @@
 {
   "replace": false,
   "values": [
+    {
+      "id": "#minecraft:is_explosion",
+      "required": false
+    },
+    {
+      "id": "#minecraft:is_projectile",
+      "required": false
+    },
+    {
+      "id": "#avp:is_bullet_projectile",
+      "required": false
+    },
     "minecraft:arrow",
     "minecraft:cactus",
     "minecraft:explosion",
