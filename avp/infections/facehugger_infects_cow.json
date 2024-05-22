@@ -1,8 +1,0 @@
-{
-  "parasite": "avp:facehugger",
-  "host": "minecraft:cow",
-  "result": "avp:chestburster_runner",
-  "impregnationTime": 60,
-  "latchTime": 1200,
-  "gestationTime": 6000
-}

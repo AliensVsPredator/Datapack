@@ -1,17 +1,12 @@
 {
   "replace": false,
   "values": [
-    "avp:belugaburster",
-    "avp:belugamorph",
     "avp:boiler",
     "avp:chestburster",
     "avp:chestburster_draco",
     "avp:chestburster_queen",
     "avp:chestburster_runner",
     "avp:crusher",
-    "avp:deacon_adult",
-    "avp:deacon_adult_engineer",
-    "avp:deacon",
     "avp:dracomorph",
     "avp:drone",
     "avp:drone_runner",
@@ -28,6 +23,8 @@
     "avp:trilobite",
     "avp:ultramorph",
     "avp:warrior",
-    "avp:warrior_runner"
+    "avp:warrior_runner",
+    "#avp:eggs",
+    "#avp:royal_aliens"
   ]
 }
