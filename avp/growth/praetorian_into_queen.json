@@ -1,6 +1,0 @@
-{
-  "from": "avp:praetorian",
-  "to": "avp:queen",
-  "growthTime": 192000,
-  "requirement": "#queen_requirements"
-}

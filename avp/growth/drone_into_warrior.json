@@ -1,6 +1,0 @@
-{
-  "from": "avp:drone",
-  "to": "avp:warrior",
-  "growthTime": 48000,
-  "requirement": "#warrior_hive_ratio"
-}
