@@ -3,8 +3,8 @@
   "values": [
     "avp:facehugger",
     "avp:facehugger_royal",
-    "avp:octohugger",
     "avp:trilobite_baby",
-    "avp:trilobite"
+    "avp:trilobite",
+    "avp:octohugger"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "avp:crusher",
+    "avp:praetorian",
+    "avp:queen",
     "avp:dracomorph",
     "avp:facehugger_royal",
-    "avp:praetorian",
-    "avp:queen"
+    "avp:crusher"
   ]
 }

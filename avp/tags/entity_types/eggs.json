@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "avp:ovamorph",
-    "avp:ovamorph_draco"
+    "avp:ovamorph_draco",
+    "avp:ovamorph"
   ]
 }

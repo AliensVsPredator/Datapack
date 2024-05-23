@@ -1,16 +1,16 @@
 {
   "replace": false,
   "values": [
-    "avp:crusher",
-    "avp:dracomorph",
-    "avp:drone",
-    "avp:drone_runner",
-    "avp:nauticomorph",
     "avp:praetorian",
     "avp:queen",
-    "avp:spitter",
-    "avp:ultramorph",
     "avp:warrior",
-    "avp:warrior_runner"
+    "avp:dracomorph",
+    "avp:spitter",
+    "avp:warrior_runner",
+    "avp:drone_runner",
+    "avp:crusher",
+    "avp:ultramorph",
+    "avp:drone",
+    "avp:nauticomorph"
   ]
 }
