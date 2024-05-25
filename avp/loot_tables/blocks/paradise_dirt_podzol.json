@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "avp:paradise_dirt"
+          "name": "avp:paradise_dirt_podzol"
         }
       ],
       "rolls": 1.0
