@@ -32,11 +32,17 @@
     },
     {
       "bonus_rolls": 0.0,
-      "entries": [
+      "conditions": [
         {
-          "type": "minecraft:empty",
-          "weight": 36
+          "condition": "minecraft:killed_by_player"
         },
+        {
+          "chance": 0.1,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.033
+        }
+      ],
+      "entries": [
         {
           "type": "minecraft:item",
           "name": "avp:armor_veritanium_helmet"
@@ -52,6 +58,26 @@
         {
           "type": "minecraft:item",
           "name": "avp:armor_veritanium_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "avp:tool_veritanium_axe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "avp:tool_veritanium_hoe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "avp:tool_veritanium_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "avp:tool_veritanium_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "avp:tool_veritanium_sword"
         }
       ],
       "rolls": 1.0
