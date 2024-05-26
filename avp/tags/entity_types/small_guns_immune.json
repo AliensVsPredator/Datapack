@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "avp:drone_runner",
+    "avp:drone"
+  ]
+}
