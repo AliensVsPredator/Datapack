@@ -1,6 +1,18 @@
 {
   "replace": false,
   "values": [
-    "#avp:small_guns_immune"
+    "avp:praetorian",
+    "avp:yautja",
+    "avp:deacon_adult_engineer",
+    "avp:crusher",
+    "avp:ultramorph",
+    {
+      "id": "#avp:heavy_guns_immune",
+      "required": false
+    },
+    {
+      "id": "#avp:uber_guns_immune",
+      "required": false
+    }
   ]
 }
