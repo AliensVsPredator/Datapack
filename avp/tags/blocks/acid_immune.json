@@ -2,7 +2,7 @@
   "replace": false,
   "values": [
     {
-      "id": "#minecraft:features_cannot_replace",
+      "id": "#avp:should_not_be_destroyed",
       "required": false
     }
   ]
