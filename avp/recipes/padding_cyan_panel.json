@@ -1,21 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "key": {
-    "A": {
+  "ingredients": [
+    {
       "item": "minecraft:leather"
     },
-    "B": {
+    {
       "tag": "minecraft:wool"
     },
-    "C": {
+    {
       "item": "minecraft:cyan_dye"
     }
-  },
-  "pattern": [
-    " AC",
-    "ABA",
-    " A "
   ],
   "result": {
     "item": "avp:padding_cyan_panel"
