@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "avp:plastic_black",
+    "avp:plastic_blue",
+    "avp:plastic_brown",
+    "avp:plastic_cyan",
+    "avp:plastic_gray",
+    "avp:plastic_green",
+    "avp:plastic_light_blue",
+    "avp:plastic_light_gray",
+    "avp:plastic_lime",
+    "avp:plastic_magenta",
+    "avp:plastic_orange",
+    "avp:plastic_pink",
+    "avp:plastic_purple",
+    "avp:plastic_red",
+    "avp:plastic_white",
+    "avp:plastic_yellow"
+  ]
+}
