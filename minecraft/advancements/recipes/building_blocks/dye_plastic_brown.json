@@ -1,0 +1,216 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_A": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brown_dye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_B_0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:plastic_black"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_B_1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:plastic_black"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_B_10": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:plastic_black"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_B_11": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:plastic_black"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_B_12": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:plastic_black"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_B_13": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:plastic_black"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_B_2": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:plastic_black"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_B_3": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:plastic_black"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_B_4": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:plastic_black"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_B_5": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:plastic_black"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_B_6": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:plastic_black"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_B_7": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:plastic_black"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_B_8": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:plastic_black"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_B_9": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:plastic_black"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:dye_plastic_brown"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_A",
+      "has_B_0",
+      "has_B_1",
+      "has_B_2",
+      "has_B_3",
+      "has_B_4",
+      "has_B_5",
+      "has_B_6",
+      "has_B_7",
+      "has_B_8",
+      "has_B_9",
+      "has_B_10",
+      "has_B_11",
+      "has_B_12",
+      "has_B_13"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:dye_plastic_brown"
+    ]
+  }
+}

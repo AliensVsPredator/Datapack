@@ -4,15 +4,11 @@
   "key": {
     "A": {
       "item": "avp:polymer"
-    },
-    "B": {
-      "item": "minecraft:green_dye"
     }
   },
   "pattern": [
-    "AAA",
-    "ABA",
-    "AAA"
+    "AA",
+    "AA"
   ],
   "result": {
     "item": "avp:plastic_green"
