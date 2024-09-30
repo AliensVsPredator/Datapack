@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "avp:paradise_fence_large"
+          "name": "avp:paradise_planks_medium"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "avp:blocks/paradise_fence_large"
+  "random_sequence": "avp:blocks/paradise_planks_medium"
 }

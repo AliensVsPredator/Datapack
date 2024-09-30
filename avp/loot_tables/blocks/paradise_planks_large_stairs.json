@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "avp:paradise_log_small_planks_stairs"
+          "name": "avp:paradise_planks_large_stairs"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "avp:blocks/paradise_log_small_planks_stairs"
+  "random_sequence": "avp:blocks/paradise_planks_large_stairs"
 }

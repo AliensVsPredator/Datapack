@@ -11,7 +11,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "avp:paradise_log_small_planks_slab",
+                  "block": "avp:paradise_planks_large_slab",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "type": "double"
@@ -25,11 +25,11 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "avp:paradise_log_small_planks_slab"
+          "name": "avp:paradise_planks_large_slab"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "avp:blocks/paradise_log_small_planks_slab"
+  "random_sequence": "avp:blocks/paradise_planks_large_slab"
 }
