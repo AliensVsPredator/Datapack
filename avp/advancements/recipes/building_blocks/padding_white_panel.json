@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_A": {
+    "has_leather": {
       "conditions": {
         "items": [
           {
@@ -13,17 +13,13 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_B": {
+    "has_the_recipe": {
       "conditions": {
-        "items": [
-          {
-            "tag": "minecraft:wool"
-          }
-        ]
+        "recipe": "avp:padding_white_panel"
       },
-      "trigger": "minecraft:inventory_changed"
+      "trigger": "minecraft:recipe_unlocked"
     },
-    "has_C": {
+    "has_white_dye": {
       "conditions": {
         "items": [
           {
@@ -35,19 +31,23 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_the_recipe": {
+    "has_wool": {
       "conditions": {
-        "recipe": "avp:padding_white_panel"
+        "items": [
+          {
+            "tag": "minecraft:wool"
+          }
+        ]
       },
-      "trigger": "minecraft:recipe_unlocked"
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "requirements": [
     [
       "has_the_recipe",
-      "has_A",
-      "has_B",
-      "has_C"
+      "has_leather",
+      "has_wool",
+      "has_white_dye"
     ]
   ],
   "rewards": {

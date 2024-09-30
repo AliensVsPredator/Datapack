@@ -1,29 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_A": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:leather"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_B": {
-      "conditions": {
-        "items": [
-          {
-            "tag": "minecraft:wool"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_C": {
+    "has_green_dye": {
       "conditions": {
         "items": [
           {
@@ -35,19 +13,41 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_leather": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_the_recipe": {
       "conditions": {
         "recipe": "avp:padding_green_panel"
       },
       "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wool": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:wool"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "requirements": [
     [
       "has_the_recipe",
-      "has_A",
-      "has_B",
-      "has_C"
+      "has_leather",
+      "has_wool",
+      "has_green_dye"
     ]
   ],
   "rewards": {
