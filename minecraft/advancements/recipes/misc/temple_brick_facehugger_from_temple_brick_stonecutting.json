@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_temple_tile": {
+    "has_temple_brick": {
       "conditions": {
         "items": [
           {
             "items": [
-              "avp:temple_tile"
+              "avp:temple_brick"
             ]
           }
         ]
@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:temple_wall_base_from_temple_tile_stonecutting"
+        "recipe": "minecraft:temple_brick_facehugger_from_temple_brick_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -23,12 +23,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_temple_tile"
+      "has_temple_brick"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:temple_wall_base_from_temple_tile_stonecutting"
+      "minecraft:temple_brick_facehugger_from_temple_brick_stonecutting"
     ]
   }
 }
