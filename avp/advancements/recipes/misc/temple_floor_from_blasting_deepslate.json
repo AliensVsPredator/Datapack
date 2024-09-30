@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "avp:temple_stone_from_blasting_deepslate"
+        "recipe": "avp:temple_floor_from_blasting_deepslate"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "avp:temple_stone_from_blasting_deepslate"
+      "avp:temple_floor_from_blasting_deepslate"
     ]
   }
 }
