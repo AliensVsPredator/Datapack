@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_A": {
+    "has_engineer_ship_brick_3": {
       "conditions": {
         "items": [
           {
@@ -23,7 +23,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_A"
+      "has_engineer_ship_brick_3"
     ]
   ],
   "rewards": {

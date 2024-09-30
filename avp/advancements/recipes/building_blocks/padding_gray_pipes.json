@@ -1,24 +1,24 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_A": {
+    "has_iron_nugget": {
       "conditions": {
         "items": [
           {
             "items": [
-              "avp:padding_gray_panel"
+              "minecraft:iron_nugget"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_B": {
+    "has_padding_gray_panel": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:iron_nugget"
+              "avp:padding_gray_panel"
             ]
           }
         ]
@@ -35,8 +35,8 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_A",
-      "has_B"
+      "has_padding_gray_panel",
+      "has_iron_nugget"
     ]
   ],
   "rewards": {

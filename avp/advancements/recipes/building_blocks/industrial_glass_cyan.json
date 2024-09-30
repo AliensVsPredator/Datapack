@@ -1,24 +1,24 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_A": {
+    "has_cyan_dye": {
       "conditions": {
         "items": [
           {
             "items": [
-              "avp:industrial_glass"
+              "minecraft:cyan_dye"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_B": {
+    "has_industrial_glass": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:cyan_dye"
+              "avp:industrial_glass"
             ]
           }
         ]
@@ -35,8 +35,8 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_A",
-      "has_B"
+      "has_industrial_glass",
+      "has_cyan_dye"
     ]
   ],
   "rewards": {

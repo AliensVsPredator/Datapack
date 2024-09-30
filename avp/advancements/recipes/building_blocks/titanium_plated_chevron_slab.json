@@ -1,7 +1,13 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_A": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "avp:titanium_plated_chevron_slab"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_titanium_plated_chevron": {
       "conditions": {
         "items": [
           {
@@ -12,18 +18,12 @@
         ]
       },
       "trigger": "minecraft:inventory_changed"
-    },
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "avp:titanium_plated_chevron_slab"
-      },
-      "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
       "has_the_recipe",
-      "has_A"
+      "has_titanium_plated_chevron"
     ]
   ],
   "rewards": {

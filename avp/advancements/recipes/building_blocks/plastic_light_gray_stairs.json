@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_A": {
+    "has_plastic_light_gray": {
       "conditions": {
         "items": [
           {
@@ -23,7 +23,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_A"
+      "has_plastic_light_gray"
     ]
   ],
   "rewards": {
