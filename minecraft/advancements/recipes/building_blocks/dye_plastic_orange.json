@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_A": {
+    "has_orange_dye": {
       "conditions": {
         "items": [
           {
@@ -13,103 +13,19 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_B_0": {
+    "has_plastic_black": {
       "conditions": {
         "items": [
           {
             "items": [
-              "avp:plastic_gray"
+              "avp:plastic_black"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_B_1": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "avp:plastic_red"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_B_10": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "avp:plastic_yellow"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_B_11": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "avp:plastic_white"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_B_12": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "avp:plastic_green"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_B_13": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "avp:plastic_purple"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_B_14": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "avp:plastic_lime"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_B_2": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "avp:plastic_pink"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_B_3": {
+    "has_plastic_blue": {
       "conditions": {
         "items": [
           {
@@ -121,7 +37,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_B_4": {
+    "has_plastic_brown": {
       "conditions": {
         "items": [
           {
@@ -133,7 +49,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_B_5": {
+    "has_plastic_cyan": {
       "conditions": {
         "items": [
           {
@@ -145,7 +61,31 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_B_6": {
+    "has_plastic_gray": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:plastic_gray"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_plastic_green": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:plastic_green"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_plastic_light_blue": {
       "conditions": {
         "items": [
           {
@@ -157,19 +97,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_B_7": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "avp:plastic_magenta"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_B_8": {
+    "has_plastic_light_gray": {
       "conditions": {
         "items": [
           {
@@ -181,12 +109,84 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_B_9": {
+    "has_plastic_lime": {
       "conditions": {
         "items": [
           {
             "items": [
-              "avp:plastic_black"
+              "avp:plastic_lime"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_plastic_magenta": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:plastic_magenta"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_plastic_pink": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:plastic_pink"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_plastic_purple": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:plastic_purple"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_plastic_red": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:plastic_red"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_plastic_white": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:plastic_white"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_plastic_yellow": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "avp:plastic_yellow"
             ]
           }
         ]
@@ -203,22 +203,22 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_A",
-      "has_B_0",
-      "has_B_1",
-      "has_B_2",
-      "has_B_3",
-      "has_B_4",
-      "has_B_5",
-      "has_B_6",
-      "has_B_7",
-      "has_B_8",
-      "has_B_9",
-      "has_B_10",
-      "has_B_11",
-      "has_B_12",
-      "has_B_13",
-      "has_B_14"
+      "has_orange_dye",
+      "has_plastic_black",
+      "has_plastic_blue",
+      "has_plastic_brown",
+      "has_plastic_cyan",
+      "has_plastic_gray",
+      "has_plastic_green",
+      "has_plastic_light_blue",
+      "has_plastic_light_gray",
+      "has_plastic_lime",
+      "has_plastic_magenta",
+      "has_plastic_pink",
+      "has_plastic_purple",
+      "has_plastic_red",
+      "has_plastic_white",
+      "has_plastic_yellow"
     ]
   ],
   "rewards": {
