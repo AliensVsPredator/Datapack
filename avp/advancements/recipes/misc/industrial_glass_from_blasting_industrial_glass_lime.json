@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_industrial_glass": {
+    "has_industrial_glass_lime": {
       "conditions": {
         "items": [
           {
             "items": [
-              "avp:industrial_glass"
+              "avp:industrial_glass_lime"
             ]
           }
         ]
@@ -23,7 +23,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_industrial_glass"
+      "has_industrial_glass_lime"
     ]
   ],
   "rewards": {
