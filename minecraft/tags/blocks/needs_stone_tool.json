@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "avp:aluminum_block",
     "avp:aluminum_plated_slab",
+    "avp:aluminum_block",
     "avp:aluminum_plated_chevron",
     "avp:aluminum_cut_slab",
     "avp:aluminum_plated",
@@ -34,9 +34,9 @@
     "avp:copper_plated_stack_wall",
     "avp:copper_vent",
     "avp:copper_plated_slab",
-    "avp:ferroaluminum_block",
     "avp:ferroaluminum_plated_stack",
     "avp:ferroaluminum_plated_slab",
+    "avp:ferroaluminum_block",
     "avp:ferroaluminum_plated",
     "avp:ferroaluminum_cut_slab",
     "avp:ferroaluminum_plated_stack_wall",
