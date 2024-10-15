@@ -68,6 +68,9 @@
     "avp:plastic_yellow",
     "avp:plastic_yellow_slab",
     "avp:plastic_yellow_stairs",
-    "avp:plastic_yellow_wall"
+    "avp:plastic_yellow_wall",
+    "avp:resin",
+    "avp:resin_vein",
+    "avp:resin_webbing"
   ]
 }
